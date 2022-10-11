@@ -1,40 +1,4 @@
-wait(2)
-repeat
-	wait()
-until game:IsLoaded()
-task.spawn(function()
-	local script = antiafk_2
-
-local oldreq = require
-local function require(target)
-    if modules[target] then
-        return modules[target]()
-    end
-    return oldreq(target)
-end
-
-local CANCAN=game:service'VirtualUser'
-game:service'Players'.LocalPlayer.Idled:connect(function()
-    CANCAN:CaptureController()CANCAN:ClickButton2(Vector2.new())
-    end)
-end)
-
-local Config = {
-    WindowName = "Shitty Princess Game Autofarm | capi#0001",
-	Color = Color3.fromRGB(40,0,0),
-	Keybind = Enum.KeyCode.RightBracket
-}
-
-local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/AlexR32/Roblox/main/BracketV3.lua"))()
-local Window = Library:CreateWindow(Config, game:GetService("CoreGui"))
-
---// Tabs
-local Tab1 = Window:CreateTab("Capi Has A Huge Cock")
-
-local Section1 = Tab1:CreateSection("Autofarm")
-
-local Toggle1 = Section7:CreateToggle("Autofarm", nil, function()
-    wait()
+wait()
 			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-429, 160, -420)
 			wait(1)
 			game:GetService("RunService").Heartbeat:Connect(function()
@@ -75,13 +39,13 @@ local Toggle1 = Section7:CreateToggle("Autofarm", nil, function()
 			wait(1)
 	
 	
-			if getgenv().Toggle1 == nil then 
+			if getgenv().toggle == nil then 
 	
-				getgenv().Toggle1 = false 
+				getgenv().toggle = false 
 	
 			end
 	
-			getgenv().Toggle1 = not getgenv().Toggle1
+			getgenv().toggle = not getgenv().toggle
 	
 			while getgenv().toggle == false do
 				wait()
@@ -94,15 +58,15 @@ local Toggle1 = Section7:CreateToggle("Autofarm", nil, function()
 	
 			end
 	
-			if getgenv().Toggle1 == nil then 
+			if getgenv().toggle == nil then 
 	
-				getgenv().Toggle1 = false 
+				getgenv().toggle = false 
 	
 			end
 	
-			getgenv().Toggle1 = not getgenv().Toggle1
+			getgenv().toggle = not getgenv().toggle
 	
-			while getgenv().Toggle1 == false do
+			while getgenv().toggle == false do
 				wait(1)
 	
 				for i,v in pairs(game:GetService("Workspace").TrickorTreatDoors:GetChildren()) do
@@ -123,3 +87,5 @@ local Toggle1 = Section7:CreateToggle("Autofarm", nil, function()
 			end
 	
 	end)
+	
+end)
