@@ -2,4 +2,4 @@
 
 -----
 
-<br>Welcome to my misc section, here are all the loadstrings.<br>
+<br>***Welcome to my misc section, here are all the loadstrings.****<br>
