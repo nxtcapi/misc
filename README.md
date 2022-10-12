@@ -2,9 +2,12 @@
 
 -----
 
-<br>***Welcome to my misc section, here are all the loadstrings.***<br>
+
+### ***Welcome to my misc section, here are all the loadstrings.***
+
 
 Made By ***capi#0001*** 
+
 
 ### Merge Simulator Auto Farm | https://www.roblox.com/games/10925589760/RELEASE-Merge-Simulator
 ```lua
@@ -14,3 +17,5 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/nxtcapi/misc/main/mer
 ```lua
 loadstring(game:HttpGet("https://raw.githubusercontent.com/nxtcapi/misc/main/Royallween%20Autofarm.lua",true))()
 ```
+
+-----
