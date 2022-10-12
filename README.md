@@ -9,12 +9,6 @@
 
 
 
-Made By ***capi#0001*** 
-
-
-
-
-
 
 
 ### Merge Simulator Auto Farm | https://www.roblox.com/games/10925589760/RELEASE-Merge-Simulator
